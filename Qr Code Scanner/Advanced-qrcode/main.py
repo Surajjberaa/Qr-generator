@@ -8,4 +8,5 @@ print("Enter the Text/Url you want to make QRcode of: ")
 qr.add_data(input(""))
 qr.make(fit=True)
 img= qr.make_image(fill_color="white", back_color="black")
+# To save image
 img.save("QRcode.png")
